@@ -11,7 +11,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:4000/users/signup', {
+      const response = await fetch('https://rent-and-ride-api.onrender.com/users/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
